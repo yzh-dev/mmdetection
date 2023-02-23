@@ -1,7 +1,5 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from .approx_max_iou_assigner import ApproxMaxIoUAssigner
-from .ascend_assign_result import AscendAssignResult
-from .ascend_max_iou_assigner import AscendMaxIoUAssigner
 from .assign_result import AssignResult
 from .atss_assigner import ATSSAssigner
 from .base_assigner import BaseAssigner
@@ -20,6 +18,5 @@ __all__ = [
     'BaseAssigner', 'MaxIoUAssigner', 'ApproxMaxIoUAssigner', 'AssignResult',
     'PointAssigner', 'ATSSAssigner', 'CenterRegionAssigner', 'GridAssigner',
     'HungarianAssigner', 'RegionAssigner', 'UniformAssigner', 'SimOTAAssigner',
-    'TaskAlignedAssigner', 'MaskHungarianAssigner', 'AscendAssignResult',
-    'AscendMaxIoUAssigner'
+    'TaskAlignedAssigner', 'MaskHungarianAssigner'
 ]

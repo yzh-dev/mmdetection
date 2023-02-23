@@ -1,9 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from .anchor_free_head import AnchorFreeHead
 from .anchor_head import AnchorHead
-from .ascend_anchor_head import AscendAnchorHead
-from .ascend_retina_head import AscendRetinaHead
-from .ascend_ssd_head import AscendSSDHead
 from .atss_head import ATSSHead
 from .autoassign_head import AutoAssignHead
 from .cascade_rpn_head import CascadeRPNHead, StageCascadeRPNHead
@@ -57,6 +54,5 @@ __all__ = [
     'DETRHead', 'YOLOFHead', 'DeformableDETRHead', 'SOLOHead',
     'DecoupledSOLOHead', 'CenterNetHead', 'YOLOXHead',
     'DecoupledSOLOLightHead', 'LADHead', 'TOODHead', 'MaskFormerHead',
-    'Mask2FormerHead', 'SOLOV2Head', 'DDODHead', 'AscendAnchorHead',
-    'AscendRetinaHead', 'AscendSSDHead'
+    'Mask2FormerHead', 'SOLOV2Head', 'DDODHead'
 ]
